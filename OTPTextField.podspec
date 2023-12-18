@@ -21,15 +21,6 @@ Pod::Spec.new do |spec|
 
      spec.source_files  = "OTPTextField/Source/**/*.{h,m,swift}"
 
-     #spec.resources = "AEOTPTextField/Source/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-
-     #spec.resource_bundles = {
-      #   'AEOTPTextField' => [
-      #       "AEOTPTextField/Source/**/*.{storyboard,xib,xcassets,strings}"
-      #   ]
-       #}
-
-
      spec.swift_version = '5.0'
 
      spec.requires_arc = true

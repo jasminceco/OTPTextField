@@ -7,21 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		465369782846290D005E1D66 /* AEOTPTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DF02E22652DB22004B24B0 /* AEOTPTextField.framework */; };
-		465369792846290D005E1D66 /* AEOTPTextField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4DF02E22652DB22004B24B0 /* AEOTPTextField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		46DC70622847C89D0022158D /* AEOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC70612847C89D0022158D /* AEOTPTextField.swift */; };
-		46DC70662847C8AB0022158D /* AEOTPTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC70632847C8AB0022158D /* AEOTPTextFieldDelegate.swift */; };
-		46DC70672847C8AB0022158D /* AEOTPTextFieldImplementationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC70642847C8AB0022158D /* AEOTPTextFieldImplementationProtocol.swift */; };
-		46DC70682847C8AB0022158D /* AEOTPTextFieldImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC70652847C8AB0022158D /* AEOTPTextFieldImplementation.swift */; };
-		46DC706E2847C98D0022158D /* AEOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC706C2847C98D0022158D /* AEOTPView.swift */; };
-		46DC706F2847C98D0022158D /* AEOTPViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC706D2847C98D0022158D /* AEOTPViewRepresentable.swift */; };
-		46DC70712847C9960022158D /* AEOTPTextFieldSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC70702847C9960022158D /* AEOTPTextFieldSwiftUI.swift */; };
-		46DC70BC2847D67F0022158D /* View+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC70BB2847D67F0022158D /* View+Helpers.swift */; };
-		46DC70BE2847D6A60022158D /* ChangeObserverModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC70BD2847D6A60022158D /* ChangeObserverModifier.swift */; };
 		46DC70C02847DEB10022158D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DC70BF2847DEB10022158D /* SwiftUIView.swift */; };
-		F4DF02EC2652DB23004B24B0 /* AEOTPTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DF02E22652DB22004B24B0 /* AEOTPTextField.framework */; };
-		F4DF02F12652DB23004B24B0 /* AEOTPTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF02F02652DB23004B24B0 /* AEOTPTextFieldTests.swift */; };
-		F4DF02F32652DB23004B24B0 /* AEOTPTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DF02E52652DB22004B24B0 /* AEOTPTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD80A8202B3071D9009E08A0 /* OTPTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD80A8022B3070E2009E08A0 /* OTPTextField.framework */; };
+		DD80A8212B3071D9009E08A0 /* OTPTextField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD80A8022B3070E2009E08A0 /* OTPTextField.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F4DF03032652DBFA004B24B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF03022652DBFA004B24B0 /* AppDelegate.swift */; };
 		F4DF03052652DBFA004B24B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF03042652DBFA004B24B0 /* SceneDelegate.swift */; };
 		F4DF03072652DBFA004B24B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF03062652DBFA004B24B0 /* ViewController.swift */; };
@@ -31,30 +19,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4653697A2846290D005E1D66 /* PBXContainerItemProxy */ = {
+		DD80A8222B3071D9009E08A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F4DF02D92652DB22004B24B0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4DF02E12652DB22004B24B0;
-			remoteInfo = AEOTPTextField;
-		};
-		F4DF02ED2652DB23004B24B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F4DF02D92652DB22004B24B0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F4DF02E12652DB22004B24B0;
-			remoteInfo = AEOTPTextField;
+			remoteGlobalIDString = DD80A8012B3070E2009E08A0;
+			remoteInfo = OTPTextField;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4653697C2846290D005E1D66 /* Embed Frameworks */ = {
+		DD80A8242B3071D9009E08A0 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				465369792846290D005E1D66 /* AEOTPTextField.framework in Embed Frameworks */,
+				DD80A8212B3071D9009E08A0 /* OTPTextField.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,22 +43,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		46DC70612847C89D0022158D /* AEOTPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPTextField.swift; sourceTree = "<group>"; };
-		46DC70632847C8AB0022158D /* AEOTPTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldDelegate.swift; sourceTree = "<group>"; };
-		46DC70642847C8AB0022158D /* AEOTPTextFieldImplementationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldImplementationProtocol.swift; sourceTree = "<group>"; };
-		46DC70652847C8AB0022158D /* AEOTPTextFieldImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldImplementation.swift; sourceTree = "<group>"; };
-		46DC706C2847C98D0022158D /* AEOTPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPView.swift; sourceTree = "<group>"; };
-		46DC706D2847C98D0022158D /* AEOTPViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPViewRepresentable.swift; sourceTree = "<group>"; };
-		46DC70702847C9960022158D /* AEOTPTextFieldSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldSwiftUI.swift; sourceTree = "<group>"; };
-		46DC70BB2847D67F0022158D /* View+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Helpers.swift"; sourceTree = "<group>"; };
-		46DC70BD2847D6A60022158D /* ChangeObserverModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeObserverModifier.swift; sourceTree = "<group>"; };
 		46DC70BF2847DEB10022158D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		F4DF02E22652DB22004B24B0 /* AEOTPTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEOTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4DF02E52652DB22004B24B0 /* AEOTPTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEOTPTextField.h; sourceTree = "<group>"; };
-		F4DF02E62652DB22004B24B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4DF02EB2652DB23004B24B0 /* AEOTPTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AEOTPTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4DF02F02652DB23004B24B0 /* AEOTPTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldTests.swift; sourceTree = "<group>"; };
-		F4DF02F22652DB23004B24B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD80A7B12B306DEF009E08A0 /* AEOTPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPTextField.swift; sourceTree = "<group>"; };
+		DD80A7B32B306DEF009E08A0 /* AEOTPTextFieldImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldImplementation.swift; sourceTree = "<group>"; };
+		DD80A7B42B306DEF009E08A0 /* AEOTPTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldDelegate.swift; sourceTree = "<group>"; };
+		DD80A7B52B306DEF009E08A0 /* AEOTPTextFieldImplementationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldImplementationProtocol.swift; sourceTree = "<group>"; };
+		DD80A7B82B306DEF009E08A0 /* AEOTPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPView.swift; sourceTree = "<group>"; };
+		DD80A7B92B306DEF009E08A0 /* AEOTPViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPViewRepresentable.swift; sourceTree = "<group>"; };
+		DD80A7BB2B306DEF009E08A0 /* View+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Helpers.swift"; sourceTree = "<group>"; };
+		DD80A7BC2B306DEF009E08A0 /* AEOTPTextFieldSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldSwiftUI.swift; sourceTree = "<group>"; };
+		DD80A7BD2B306DEF009E08A0 /* ChangeObserverModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeObserverModifier.swift; sourceTree = "<group>"; };
+		DD80A7BF2B306DEF009E08A0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD80A7F42B306E4B009E08A0 /* OTPTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPTextField.h; sourceTree = "<group>"; };
+		DD80A8022B3070E2009E08A0 /* OTPTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD80A8112B3071CD009E08A0 /* AEOTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEOTPTextField.swift; sourceTree = "<group>"; };
+		DD80A8132B3071CD009E08A0 /* AEOTPTextFieldImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldImplementation.swift; sourceTree = "<group>"; };
+		DD80A8142B3071CD009E08A0 /* AEOTPTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldDelegate.swift; sourceTree = "<group>"; };
+		DD80A8152B3071CD009E08A0 /* AEOTPTextFieldImplementationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldImplementationProtocol.swift; sourceTree = "<group>"; };
+		DD80A8182B3071CD009E08A0 /* AEOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEOTPView.swift; sourceTree = "<group>"; };
+		DD80A8192B3071CD009E08A0 /* AEOTPViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEOTPViewRepresentable.swift; sourceTree = "<group>"; };
+		DD80A81B2B3071CD009E08A0 /* View+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Helpers.swift"; sourceTree = "<group>"; };
+		DD80A81C2B3071CD009E08A0 /* AEOTPTextFieldSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEOTPTextFieldSwiftUI.swift; sourceTree = "<group>"; };
+		DD80A81D2B3071CD009E08A0 /* ChangeObserverModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeObserverModifier.swift; sourceTree = "<group>"; };
+		DD80A81E2B3071CD009E08A0 /* OTPTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPTextField.h; sourceTree = "<group>"; };
+		DD80A81F2B3071CD009E08A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4DF03002652DBFA004B24B0 /* AEOTPTextFieldExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AEOTPTextFieldExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DF03022652DBFA004B24B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DF03042652DBFA004B24B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,18 +78,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4DF02DF2652DB22004B24B0 /* Frameworks */ = {
+		DD80A7FF2B3070E2009E08A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4DF02E82652DB23004B24B0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4DF02EC2652DB23004B24B0 /* AEOTPTextField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				465369782846290D005E1D66 /* AEOTPTextField.framework in Frameworks */,
+				DD80A8202B3071D9009E08A0 /* OTPTextField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,63 +99,9 @@
 		465369772846290D005E1D66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD80A80D2B3071CD009E08A0 /* OTPTextField */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		46DC705E2847C8790022158D /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				46DC705F2847C87C0022158D /* Core */,
-				46DC70602847C8800022158D /* Utilities */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		46DC705F2847C87C0022158D /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				46DC70612847C89D0022158D /* AEOTPTextField.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		46DC70602847C8800022158D /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				46DC70652847C8AB0022158D /* AEOTPTextFieldImplementation.swift */,
-				46DC70632847C8AB0022158D /* AEOTPTextFieldDelegate.swift */,
-				46DC70642847C8AB0022158D /* AEOTPTextFieldImplementationProtocol.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		46DC70692847C9690022158D /* SwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				46DC706A2847C9700022158D /* Core */,
-				46DC706B2847C9740022158D /* Utilities */,
-			);
-			path = SwiftUI;
-			sourceTree = "<group>";
-		};
-		46DC706A2847C9700022158D /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				46DC706C2847C98D0022158D /* AEOTPView.swift */,
-				46DC706D2847C98D0022158D /* AEOTPViewRepresentable.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		46DC706B2847C9740022158D /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				46DC70702847C9960022158D /* AEOTPTextFieldSwiftUI.swift */,
-				46DC70BD2847D6A60022158D /* ChangeObserverModifier.swift */,
-				46DC70BB2847D67F0022158D /* View+Helpers.swift */,
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 		46DC70C12847DFC90022158D /* Resources */ = {
@@ -213,12 +140,159 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		DD80A7AE2B306DEF009E08A0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A7AF2B306DEF009E08A0 /* UIKit */,
+				DD80A7B62B306DEF009E08A0 /* SwiftUI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DD80A7AF2B306DEF009E08A0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A7B02B306DEF009E08A0 /* Core */,
+				DD80A7B22B306DEF009E08A0 /* Utilities */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		DD80A7B02B306DEF009E08A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A7B12B306DEF009E08A0 /* AEOTPTextField.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DD80A7B22B306DEF009E08A0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A7B32B306DEF009E08A0 /* AEOTPTextFieldImplementation.swift */,
+				DD80A7B42B306DEF009E08A0 /* AEOTPTextFieldDelegate.swift */,
+				DD80A7B52B306DEF009E08A0 /* AEOTPTextFieldImplementationProtocol.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DD80A7B62B306DEF009E08A0 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A7B72B306DEF009E08A0 /* Core */,
+				DD80A7BA2B306DEF009E08A0 /* Utilities */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		DD80A7B72B306DEF009E08A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A7B82B306DEF009E08A0 /* AEOTPView.swift */,
+				DD80A7B92B306DEF009E08A0 /* AEOTPViewRepresentable.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DD80A7BA2B306DEF009E08A0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A7BB2B306DEF009E08A0 /* View+Helpers.swift */,
+				DD80A7BC2B306DEF009E08A0 /* AEOTPTextFieldSwiftUI.swift */,
+				DD80A7BD2B306DEF009E08A0 /* ChangeObserverModifier.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DD80A7F32B306E4B009E08A0 /* OTPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A7BF2B306DEF009E08A0 /* Info.plist */,
+				DD80A7AE2B306DEF009E08A0 /* Source */,
+				DD80A7F42B306E4B009E08A0 /* OTPTextField.h */,
+			);
+			path = OTPTextField;
+			sourceTree = "<group>";
+		};
+		DD80A80D2B3071CD009E08A0 /* OTPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A80E2B3071CD009E08A0 /* Source */,
+				DD80A81E2B3071CD009E08A0 /* OTPTextField.h */,
+				DD80A81F2B3071CD009E08A0 /* Info.plist */,
+			);
+			path = OTPTextField;
+			sourceTree = "<group>";
+		};
+		DD80A80E2B3071CD009E08A0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A80F2B3071CD009E08A0 /* UIKit */,
+				DD80A8162B3071CD009E08A0 /* SwiftUI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DD80A80F2B3071CD009E08A0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A8102B3071CD009E08A0 /* Core */,
+				DD80A8122B3071CD009E08A0 /* Utilities */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		DD80A8102B3071CD009E08A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A8112B3071CD009E08A0 /* AEOTPTextField.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DD80A8122B3071CD009E08A0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A8132B3071CD009E08A0 /* AEOTPTextFieldImplementation.swift */,
+				DD80A8142B3071CD009E08A0 /* AEOTPTextFieldDelegate.swift */,
+				DD80A8152B3071CD009E08A0 /* AEOTPTextFieldImplementationProtocol.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DD80A8162B3071CD009E08A0 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A8172B3071CD009E08A0 /* Core */,
+				DD80A81A2B3071CD009E08A0 /* Utilities */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		DD80A8172B3071CD009E08A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A8182B3071CD009E08A0 /* AEOTPView.swift */,
+				DD80A8192B3071CD009E08A0 /* AEOTPViewRepresentable.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DD80A81A2B3071CD009E08A0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DD80A81B2B3071CD009E08A0 /* View+Helpers.swift */,
+				DD80A81C2B3071CD009E08A0 /* AEOTPTextFieldSwiftUI.swift */,
+				DD80A81D2B3071CD009E08A0 /* ChangeObserverModifier.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		F4DF02D82652DB22004B24B0 = {
 			isa = PBXGroup;
 			children = (
-				F4DF02E42652DB22004B24B0 /* AEOTPTextField */,
-				F4DF02EF2652DB23004B24B0 /* AEOTPTextFieldTests */,
 				F4DF03012652DBFA004B24B0 /* AEOTPTextFieldExample */,
+				DD80A7F32B306E4B009E08A0 /* OTPTextField */,
 				F4DF02E32652DB22004B24B0 /* Products */,
 				465369772846290D005E1D66 /* Frameworks */,
 			);
@@ -227,30 +301,10 @@
 		F4DF02E32652DB22004B24B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4DF02E22652DB22004B24B0 /* AEOTPTextField.framework */,
-				F4DF02EB2652DB23004B24B0 /* AEOTPTextFieldTests.xctest */,
 				F4DF03002652DBFA004B24B0 /* AEOTPTextFieldExample.app */,
+				DD80A8022B3070E2009E08A0 /* OTPTextField.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F4DF02E42652DB22004B24B0 /* AEOTPTextField */ = {
-			isa = PBXGroup;
-			children = (
-				F4DF02E52652DB22004B24B0 /* AEOTPTextField.h */,
-				F4DF02E62652DB22004B24B0 /* Info.plist */,
-				F4DF03142652DC24004B24B0 /* Source */,
-			);
-			path = AEOTPTextField;
-			sourceTree = "<group>";
-		};
-		F4DF02EF2652DB23004B24B0 /* AEOTPTextFieldTests */ = {
-			isa = PBXGroup;
-			children = (
-				F4DF02F02652DB23004B24B0 /* AEOTPTextFieldTests.swift */,
-				F4DF02F22652DB23004B24B0 /* Info.plist */,
-			);
-			path = AEOTPTextFieldTests;
 			sourceTree = "<group>";
 		};
 		F4DF03012652DBFA004B24B0 /* AEOTPTextFieldExample */ = {
@@ -264,64 +318,36 @@
 			path = AEOTPTextFieldExample;
 			sourceTree = "<group>";
 		};
-		F4DF03142652DC24004B24B0 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				46DC705E2847C8790022158D /* UIKit */,
-				46DC70692847C9690022158D /* SwiftUI */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F4DF02DD2652DB22004B24B0 /* Headers */ = {
+		DD80A7FD2B3070E2009E08A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DF02F32652DB23004B24B0 /* AEOTPTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F4DF02E12652DB22004B24B0 /* AEOTPTextField */ = {
+		DD80A8012B3070E2009E08A0 /* OTPTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4DF02F62652DB23004B24B0 /* Build configuration list for PBXNativeTarget "AEOTPTextField" */;
+			buildConfigurationList = DD80A80A2B3070E2009E08A0 /* Build configuration list for PBXNativeTarget "OTPTextField" */;
 			buildPhases = (
-				F4DF02DD2652DB22004B24B0 /* Headers */,
-				F4DF02DE2652DB22004B24B0 /* Sources */,
-				F4DF02DF2652DB22004B24B0 /* Frameworks */,
-				F4DF02E02652DB22004B24B0 /* Resources */,
+				DD80A7FD2B3070E2009E08A0 /* Headers */,
+				DD80A7FE2B3070E2009E08A0 /* Sources */,
+				DD80A7FF2B3070E2009E08A0 /* Frameworks */,
+				DD80A8002B3070E2009E08A0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AEOTPTextField;
-			productName = AEOTPTextField;
-			productReference = F4DF02E22652DB22004B24B0 /* AEOTPTextField.framework */;
+			name = OTPTextField;
+			productName = OTPTextField;
+			productReference = DD80A8022B3070E2009E08A0 /* OTPTextField.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		F4DF02EA2652DB23004B24B0 /* AEOTPTextFieldTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4DF02F92652DB23004B24B0 /* Build configuration list for PBXNativeTarget "AEOTPTextFieldTests" */;
-			buildPhases = (
-				F4DF02E72652DB23004B24B0 /* Sources */,
-				F4DF02E82652DB23004B24B0 /* Frameworks */,
-				F4DF02E92652DB23004B24B0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F4DF02EE2652DB23004B24B0 /* PBXTargetDependency */,
-			);
-			name = AEOTPTextFieldTests;
-			productName = AEOTPTextFieldTests;
-			productReference = F4DF02EB2652DB23004B24B0 /* AEOTPTextFieldTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F4DF02FF2652DBFA004B24B0 /* AEOTPTextFieldExample */ = {
 			isa = PBXNativeTarget;
@@ -330,12 +356,12 @@
 				F4DF02FC2652DBFA004B24B0 /* Sources */,
 				F4DF02FD2652DBFA004B24B0 /* Frameworks */,
 				F4DF02FE2652DBFA004B24B0 /* Resources */,
-				4653697C2846290D005E1D66 /* Embed Frameworks */,
+				DD80A8242B3071D9009E08A0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4653697B2846290D005E1D66 /* PBXTargetDependency */,
+				DD80A8232B3071D9009E08A0 /* PBXTargetDependency */,
 			);
 			name = AEOTPTextFieldExample;
 			productName = AEOTPTextFieldExample;
@@ -348,15 +374,11 @@
 		F4DF02D92652DB22004B24B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					F4DF02E12652DB22004B24B0 = {
-						CreatedOnToolsVersion = 12.5;
-						LastSwiftMigration = 1330;
-					};
-					F4DF02EA2652DB23004B24B0 = {
-						CreatedOnToolsVersion = 12.5;
+					DD80A8012B3070E2009E08A0 = {
+						CreatedOnToolsVersion = 15.0;
 					};
 					F4DF02FF2652DBFA004B24B0 = {
 						CreatedOnToolsVersion = 12.5;
@@ -376,22 +398,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4DF02E12652DB22004B24B0 /* AEOTPTextField */,
-				F4DF02EA2652DB23004B24B0 /* AEOTPTextFieldTests */,
+				DD80A8012B3070E2009E08A0 /* OTPTextField */,
 				F4DF02FF2652DBFA004B24B0 /* AEOTPTextFieldExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F4DF02E02652DB22004B24B0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4DF02E92652DB23004B24B0 /* Resources */ = {
+		DD80A8002B3070E2009E08A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,27 +425,10 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F4DF02DE2652DB22004B24B0 /* Sources */ = {
+		DD80A7FE2B3070E2009E08A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46DC70672847C8AB0022158D /* AEOTPTextFieldImplementationProtocol.swift in Sources */,
-				46DC70682847C8AB0022158D /* AEOTPTextFieldImplementation.swift in Sources */,
-				46DC706E2847C98D0022158D /* AEOTPView.swift in Sources */,
-				46DC70712847C9960022158D /* AEOTPTextFieldSwiftUI.swift in Sources */,
-				46DC70BE2847D6A60022158D /* ChangeObserverModifier.swift in Sources */,
-				46DC706F2847C98D0022158D /* AEOTPViewRepresentable.swift in Sources */,
-				46DC70662847C8AB0022158D /* AEOTPTextFieldDelegate.swift in Sources */,
-				46DC70BC2847D67F0022158D /* View+Helpers.swift in Sources */,
-				46DC70622847C89D0022158D /* AEOTPTextField.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4DF02E72652DB23004B24B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4DF02F12652DB23004B24B0 /* AEOTPTextFieldTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,15 +446,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4653697B2846290D005E1D66 /* PBXTargetDependency */ = {
+		DD80A8232B3071D9009E08A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4DF02E12652DB22004B24B0 /* AEOTPTextField */;
-			targetProxy = 4653697A2846290D005E1D66 /* PBXContainerItemProxy */;
-		};
-		F4DF02EE2652DB23004B24B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F4DF02E12652DB22004B24B0 /* AEOTPTextField */;
-			targetProxy = F4DF02ED2652DB23004B24B0 /* PBXContainerItemProxy */;
+			target = DD80A8012B3070E2009E08A0 /* OTPTextField */;
+			targetProxy = DD80A8222B3071D9009E08A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -481,6 +473,81 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DD80A80B2B3070E2009E08A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HMQALEF4UR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasmin.OTPTextField;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD80A80C2B3070E2009E08A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HMQALEF4UR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasmin.OTPTextField;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F4DF02F42652DB23004B24B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -603,107 +670,9 @@
 			};
 			name = Release;
 		};
-		F4DF02F72652DB23004B24B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AEOTPTextField/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0.8;
-				PRODUCT_BUNDLE_IDENTIFIER = jasmin.OTPTextField;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F4DF02F82652DB23004B24B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AEOTPTextField/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0.8;
-				PRODUCT_BUNDLE_IDENTIFIER = jasmin.OTPTextField;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F4DF02FA2652DB23004B24B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = AEOTPTextFieldTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = jasmin.OTPTextField.OTPTextFieldTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F4DF02FB2652DB23004B24B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = AEOTPTextFieldTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = jasmin.OTPTextField.OTPTextFieldTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		F4DF03122652DC09004B24B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -724,7 +693,6 @@
 		F4DF03132652DC09004B24B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -745,29 +713,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DD80A80A2B3070E2009E08A0 /* Build configuration list for PBXNativeTarget "OTPTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD80A80B2B3070E2009E08A0 /* Debug */,
+				DD80A80C2B3070E2009E08A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F4DF02DC2652DB22004B24B0 /* Build configuration list for PBXProject "AEOTPTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4DF02F42652DB23004B24B0 /* Debug */,
 				F4DF02F52652DB23004B24B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4DF02F62652DB23004B24B0 /* Build configuration list for PBXNativeTarget "AEOTPTextField" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4DF02F72652DB23004B24B0 /* Debug */,
-				F4DF02F82652DB23004B24B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4DF02F92652DB23004B24B0 /* Build configuration list for PBXNativeTarget "AEOTPTextFieldTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4DF02FA2652DB23004B24B0 /* Debug */,
-				F4DF02FB2652DB23004B24B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

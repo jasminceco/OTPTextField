@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import AEOTPTextField
+import OTPTextField
 import SwiftUI
 
 class ViewController: UIViewController {

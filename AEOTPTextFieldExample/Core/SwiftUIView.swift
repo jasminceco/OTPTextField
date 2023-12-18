@@ -5,7 +5,7 @@
 //  Created by Abdelrhman Eliwa on 01/06/2022.
 //
 import SwiftUI
-import AEOTPTextField
+import OTPTextField
 
 struct SwiftUIView: View {
     // MARK: - PROPERTIES
