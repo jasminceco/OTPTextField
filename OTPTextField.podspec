@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "AEOTPTextField"
+  spec.name         = "OTPTextField"
 
   spec.version      = "2.0.0"
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
      spec.ios.deployment_target = '12.1'
 
-     spec.source_files  = "AEOTPTextField/Source/**/*.{h,m,swift}"
+     spec.source_files  = "OTPTextField/Source/**/*.{h,m,swift}"
 
      #spec.resources = "AEOTPTextField/Source/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
