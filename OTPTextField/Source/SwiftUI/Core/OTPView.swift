@@ -1,26 +1,20 @@
-//
-//  AEOTPView.swift
-//  AEOTPTextField-SwiftUI
-//
-//  Created by Abdelrhman Eliwa on 01/06/2022.
-//
 
 import SwiftUI
 import Combine
 
 @available(iOS 13.0, *)
-public struct AEOTPView: View {
+public struct OTPView: View {
     // MARK: - PROPERTIES
     //
-    /// A Boolean value that used to help the `AEOTPView` supporting Clear OTP
+    /// A Boolean value that used to help the `OTPView` supporting Clear OTP
     @State private var flag: Bool = false
     /// A Binding String value of the OTP
     @Binding private var text: String
-    /// An Intger value to set the number of the slots of the `AEOTPView`
+    /// An Intger value to set the number of the slots of the `OTPView`
     private let slotsCount: Int
-    /// A CGFloat value to set a custom width to the `AEOTPView`
+    /// A CGFloat value to set a custom width to the `OTPView`
     private let width: CGFloat
-    /// A CGFloat value to set a custom height to the `AEOTPView`
+    /// A CGFloat value to set a custom height to the `OTPView`
     private let height: CGFloat
     /// The default character placed in the text field slots
     private let otpDefaultCharacter: String
@@ -46,7 +40,7 @@ public struct AEOTPView: View {
     private let otpFont: UIFont
     /// A Boolean value that indicates whether the text object disables text copying and, in some cases, hides the text that the user enters.
     private let isSecureTextEntry: Bool
-    /// A Boolean value that used to allow the `AEOTPView` clear the OTP and set the `AEOTPView` to the default state when you set the OTP Text with Empty Value
+    /// A Boolean value that used to allow the `OTPView` clear the OTP and set the `OTPView` to the default state when you set the OTP Text with Empty Value
     private let enableClearOTP: Bool
     /// A Closure that fires when the OTP returned
     private var onCommit: (() -> Void)?
@@ -55,10 +49,10 @@ public struct AEOTPView: View {
     //
     /// The Initializer of the `AEOTPTextView`
     /// - Parameters:
-    ///   - text: The OTP text that entered into AEOTPView
-    ///   - slotsCount: The number of OTP slots in the AEOTPView
-    ///   - width: The default width of the AEOTPView
-    ///   - height: The default height of the AEOTPView
+    ///   - text: The OTP text that entered into OTPView
+    ///   - slotsCount: The number of OTP slots in the OTPView
+    ///   - width: The default width of the OTPView
+    ///   - height: The default height of the OTPView
     ///   - otpDefaultCharacter: The default character placed in the text field slots
     ///   - otpBackgroundColor: The default background color of the text field slots before entering a character
     ///   - otpFilledBackgroundColor: The default background color of the text field slots after entering a character
@@ -71,7 +65,7 @@ public struct AEOTPView: View {
     ///   - otpFontSize: The default font size of the text
     ///   - otpFont: The default font of the text
     ///   - isSecureTextEntry: A Boolean value that indicates whether the text object disables text copying and, in some cases, hides the text that the user enters.
-    ///   - enableClearOTP: A Boolean value that used to allow the `AEOTPView` clear the OTP and set the `AEOTPView` to the default state when you set the OTP Text with Empty Value
+    ///   - enableClearOTP: A Boolean value that used to allow the `OTPView` clear the OTP and set the `OTPView` to the default state when you set the OTP Text with Empty Value
     ///   - onCommit: A Closure that fires when the OTP returned
     public init(
         text: Binding<String>,
@@ -135,7 +129,7 @@ public struct AEOTPView: View {
     // MARK: - VIEWS
     //
     var otpView: some View {
-        AEOTPViewRepresentable(
+        OTPViewRepresentable(
             text: $text,
             slotsCount: slotsCount,
             otpDefaultCharacter: otpDefaultCharacter,

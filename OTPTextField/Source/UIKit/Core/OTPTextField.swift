@@ -1,14 +1,8 @@
-//
-//  AEOTPTextField.swift
-//  AEOTPTextField
-//
-//  Created by Abdelrhman Eliwa on 10/12/20.
-//  Copyright © 2020 Abdelrhman Eliwa. All rights reserved.
-//
+
 
 import UIKit
 
-public class AEOTPTextField: UITextField {
+public class OTPTextField: UITextField {
     // MARK: - PROPERTIES
     //
     /// The default character placed in the text field slots
@@ -33,10 +27,10 @@ public class AEOTPTextField: UITextField {
     public var otpFontSize: CGFloat = 14
     /// The default font of the text
     public var otpFont: UIFont = UIFont.systemFont(ofSize: 14)
-    /// The delegate of the AEOTPTextFieldDelegate protocol
-    public weak var otpDelegate: AEOTPTextFieldDelegate?
+    /// The delegate of the OTPTextFieldDelegate protocol
+    public weak var otpDelegate: OTPTextFieldDelegate?
 
-    private var implementation = AEOTPTextFieldImplementation()
+    private var implementation = OTPTextFieldImplementation()
     private var isConfigured = false
     private var digitLabels = [UILabel]()
     private lazy var tapRecognizer: UITapGestureRecognizer = {
@@ -47,7 +41,7 @@ public class AEOTPTextField: UITextField {
     
     // MARK: - METHODS
     //
-    /// This func is used to configure the `AEOTPTextField`, Usually you need to call this method into `viewDidLoad()`
+    /// This func is used to configure the `OTPTextField`, Usually you need to call this method into `viewDidLoad()`
     /// - Parameter slotCount: the number of OTP slots in the TextField
     public func configure(with slotCount: Int = 6) {
         guard isConfigured == false else { return }
@@ -65,7 +59,7 @@ public class AEOTPTextField: UITextField {
         ])
     }
     
-    /// Use this func if you need to clear the `OTP` text and reset the `AEOTPTextField` to the default state
+    /// Use this func if you need to clear the `OTP` text and reset the `OTPTextField` to the default state
     public func clearOTP() {
         text = nil
         digitLabels.forEach { currentLabel in
@@ -88,7 +82,7 @@ public class AEOTPTextField: UITextField {
 
 // MARK: - PRIVATE METHODS
 //
-private extension AEOTPTextField {
+private extension OTPTextField {
     func configureTextField() {
         tintColor = .clear
         textColor = .clear
@@ -155,9 +149,9 @@ private extension AEOTPTextField {
     }
 }
 
-// MARK: - AEOTPTextFieldImplementationProtocol Delegate
+// MARK: - OTPTextFieldImplementationProtocol Delegate
 //
-extension AEOTPTextField: AEOTPTextFieldImplementationProtocol {
+extension OTPTextField: OTPTextFieldImplementationProtocol {
     var digitalLabelsCount: Int {
         digitLabels.count
     }

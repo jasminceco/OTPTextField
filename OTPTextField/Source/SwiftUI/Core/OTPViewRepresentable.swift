@@ -1,14 +1,8 @@
-//
-//  AEOTPViewRepresentable.swift
-//  AEOTPTextField-SwiftUI
-//
-//  Created by Abdelrhman Eliwa on 31/05/2022.
-//
 
 import SwiftUI
 
 @available(iOS 13.0, *)
-struct AEOTPViewRepresentable: UIViewRepresentable {
+struct OTPViewRepresentable: UIViewRepresentable {
     @Binding private var text: String
     private let slotsCount: Int
     private let otpDefaultCharacter: String
@@ -24,7 +18,7 @@ struct AEOTPViewRepresentable: UIViewRepresentable {
     private let otpFont: UIFont
     private let isSecureTextEntry: Bool
     private let onCommit: (() -> Void)?
-    private let textField: AEOTPTextFieldSwiftUI
+    private let textField: OTPTextFieldSwiftUI
         
     init(
         text: Binding<String>,
@@ -59,7 +53,7 @@ struct AEOTPViewRepresentable: UIViewRepresentable {
         self.isSecureTextEntry = isSecureTextEntry
         self.onCommit = onCommit
         
-        self.textField = AEOTPTextFieldSwiftUI(
+        self.textField = OTPTextFieldSwiftUI(
             slotsCount: slotsCount,
             otpDefaultCharacter: otpDefaultCharacter,
             otpBackgroundColor: otpBackgroundColor,
@@ -80,12 +74,12 @@ struct AEOTPViewRepresentable: UIViewRepresentable {
         Coordinator(text: $text, slotsCount: slotsCount, onCommit: onCommit)
     }
     
-    func makeUIView(context: Context) -> AEOTPTextFieldSwiftUI {
+    func makeUIView(context: Context) -> OTPTextFieldSwiftUI {
         textField.delegate = context.coordinator
         return textField
     }
     
-    func updateUIView(_ uiView: AEOTPTextFieldSwiftUI, context: Context) { }
+    func updateUIView(_ uiView: OTPTextFieldSwiftUI, context: Context) { }
     
     class Coordinator: NSObject, UITextFieldDelegate {
         

@@ -1,14 +1,8 @@
-//
-//  AEOTPTextFieldSwiftUI.swift
-//  AEOTPTextField-SwiftUI
-//
-//  Created by Abdelrhman Eliwa on 01/06/2022.
-//
 
 import UIKit
 
 @available(iOS 13.0, *)
-class AEOTPTextFieldSwiftUI: AEOTPTextField {
+class OTPTextFieldSwiftUI: OTPTextField {
     init(
         slotsCount: Int,
         otpDefaultCharacter: String,

@@ -1,14 +1,8 @@
-//
-//  AEOTPTextFieldImplementation.swift
-//  ViberTemplate
-//
-//  Created by Abdelrhman Eliwa on 09/05/2021.
-//
 
 import UIKit
 
-class AEOTPTextFieldImplementation: NSObject, UITextFieldDelegate {
-    weak var implementationDelegate: AEOTPTextFieldImplementationProtocol?
+class OTPTextFieldImplementation: NSObject, UITextFieldDelegate {
+    weak var implementationDelegate: OTPTextFieldImplementationProtocol?
 
     func textField(
         _ textField: UITextField,
