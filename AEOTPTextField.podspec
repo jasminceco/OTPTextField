@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
     spec.homepage         = 'https://github.com/jasminceco/OTPTextField'
      spec.license          = { :type => 'MIT', :file => 'LICENSE' }
      spec.author           = { 'jasmin.ceco@gmail.com' => 'jasmin.ceco@gmail.com' }
-     spec.source           = { :git => 'https://github.com/AbdelrhmanKamalEliwa/AEOTPTextField', :tag => spec.version.to_s }
+     spec.source           = { :git => 'https://github.com/jasminceco/OTPTextField', :tag => spec.version.to_s }
 
 
      spec.ios.deployment_target = '12.1'
